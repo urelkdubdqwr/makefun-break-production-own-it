@@ -1,3 +1,8 @@
+"""Write the required make.fun entry text to entry.txt.
+
+The output directory is MAKEFUN_OUTPUT_DIR when set and non-empty,
+otherwise /output. The directory is created if it does not exist.
+"""
 import os
 
 ENTRY_TEXT = (
